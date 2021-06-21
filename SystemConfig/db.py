@@ -39,8 +39,8 @@ MYSQLDB = {
 }
 
 # HEROKU database configuration
-HEROKU_DB = {
-    'default': dj_database_url.config(
-        default=config('DATABASE_URL')
-    )
-}
+# HEROKU_DB = {
+#     'default': dj_database_url.config(
+#         default=config('DATABASE_URL')
+#     )
+# }
