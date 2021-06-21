@@ -2,6 +2,7 @@ asgiref
 Django
 django-crum
 django-widget-tweaks
+dj_database_url
 html5lib
 mysqlclient
 Pillow
