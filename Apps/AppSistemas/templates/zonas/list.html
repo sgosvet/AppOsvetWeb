@@ -1,0 +1,20 @@
+{% extends 'base/baselist.html' %}
+{% load static %}
+{% block head_list %}
+<script src="{% static 'zonas/js/zonaslist.js' %}"></script>
+{% endblock head_list %}
+
+{% block columns %}
+<!-- listar todos los campos que se mostraran en el formulario -->
+<tr>
+    <th scope="col">#</th>
+    <th scope="col">Descripcion</th>
+    <th scope="col">Opciones</th>
+</tr>
+{% endblock columns %}
+
+{% block rows %}
+{% endblock rows %}
+
+{% block javascript %}
+{% endblock javascript %}

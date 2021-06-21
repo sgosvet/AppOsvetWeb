@@ -1,0 +1,42 @@
+{% extends 'AppDashboard/dashboard.html' %}
+{% load static %}
+{% block nombreapp %}
+<title>AppComercial</title>
+{% endblock nombreapp %}
+
+{% block subnavContent %}
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">Menu COMERCIAL</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'pgItem1' %}">Item1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'pgItem2' %}">Item2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'pgItem3' %}">Item3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'mostrarDashboard' %}">Volver</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Dropdown link
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">Link 2</a>
+                    <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+{% endblock subnavContent %}
+{% block content %}
+{% endblock content %}

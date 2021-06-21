@@ -1,0 +1,76 @@
+{% extends 'AppMain/index.html' %}
+{% load static %}
+{% block nombreapp %}
+<title>AppDashboard</title>
+{% endblock nombreapp %}
+{% block head_content %}
+<!-- Google Font: Source Sans Pro -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+<!-- Font Awesome -->
+<link rel="stylesheet" href="{% static 'AppMain/lib/plugins/fontawesome-free/css/all.min.css' %}">
+<!-- Theme style -->
+<link rel="stylesheet" href="{% static 'AppMain/lib/Adminlte-3.1.0-rc/css/adminlte.min.css' %}">
+<!-- jQuery -->
+<script src="{% static 'AppMain/lib/plugins/jquery/jquery.min.js' %}"></script>
+<!-- Bootstrap 4 -->
+<script src="{% static 'AppMain/lib/plugins/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+{% endblock head_content %}
+{% block navContent %}
+<section class="content-header">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Menu COMERCIAL</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Gestión de Usuarios
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Crear nuevo</a>
+                        <a class="dropdown-item" href="#">Listar</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">menuDetalleUsuarios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Item2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Item3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Volver</a>
+                </li>
+                <!-- Dropdown -->
+
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="card">
+            <div class="card-header">
+                <h1><i class="nav-icon fas fa-school"></i> DASHBOARD de Comercial</h1>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+{% endblock navContent %}
+
+{% block body_content %}
+<div style="height: 150px;"></div>
+<div style="border:none; width: 75%; height: 600px;
+            margin-left: auto; margin-right: auto;
+            justify-content: space-evenly;
+            vertical-align: middle;">
+    <div>
+
+    </div>
+
+</div>
+{% endblock body_content %}

@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SGOSVET | {{ title }}</title>
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="{% static 'main/lib/plugins/fontawesome-free/css/all.min.css' %}">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="{% static 'main/lib/adminlte-3.0.4/css/adminlte.min.css' %}">
+    <!-- Controles para el header -->
+    <link rel="stylesheet" href="{% static 'main/lib/plugins/overlayScrollbars/css/OverlayScrollbars.min.css' %}">
+    <!-- bloque para las librerías externas -->
+
+    <!-- jQuery -->
+    <script src="{% static 'main/lib/plugins/jquery/jquery.min.js' %}"></script>
+    <!-- Bootstrap 4 -->
+    <script src="{% static 'main/lib/plugins/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <!-- AdminLTE App -->
+    <script src="{% static 'main/lib/adminlte-3.0.4/js/adminlte.min.js' %}"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="{% static 'main/lib/adminlte-3.0.4/js/demo.js'%}"></script>
+    <!-- Sweet Alert -->
+    <script src="{% static 'main/lib/sweetalert2-9.10.0/sweetalert2.all.min.js' %}"></script>
+    <!-- JQuery confirm -->
+    <link rel="stylesheet" href="{% static 'main/lib/jquery-confirm/jquery-confirm.min.css' %}">
+    <script src="{% static 'main/lib/jquery-confirm/jquery-confirm.min.js' %}"></script>
+
+    <!-- Funciones -->
+    <script src="{% static 'main/js/functions.js' %}"></script>
+
+
+
+    {% block head %} {% endblock head %}
+
+</head>
+
+{% block body %} {% endblock body %}
+
+
+
+</html>

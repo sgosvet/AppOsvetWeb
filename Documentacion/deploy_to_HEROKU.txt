@@ -1,0 +1,13 @@
+-------------------------------
+Deploy de un proyecto en HEROKU
+-------------------------------
+
+Pasos:
+1- Settings.py
+	a- Se separa el archivo para trabajar local/remoto
+		Se crea una carpeta de settings.
+			- new __init__.py
+			- new base.py
+			- new local.py
+			- new production.py
+

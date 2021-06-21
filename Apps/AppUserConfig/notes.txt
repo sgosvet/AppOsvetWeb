@@ -1,0 +1,2 @@
+Esta aplicación está destinada a cambiar la configuración del modelo
+User de Django.

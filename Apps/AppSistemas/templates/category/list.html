@@ -1,0 +1,20 @@
+{% extends 'base/baselist.html' %}
+{% load static %}
+{% block head_list %}
+<script src="{% static 'category/js/categorylist.js' %}"></script>
+{% endblock head_list %}
+
+{% block columns %}
+<tr>
+    <th scope="col">#</th>
+    <th scope="col">Nombre</th>
+    <th scope="col">Descripcíon</th>
+    <th scope="col">Opciones</th>
+</tr>
+{% endblock columns %}
+
+{% block rows %}
+{% endblock rows %}
+
+{% block javascript %}
+{% endblock javascript %}
