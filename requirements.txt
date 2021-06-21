@@ -8,6 +8,7 @@ mysqlclient
 Pillow
 psycopg2
 PyPDF2
+python_decouple
 pytz
 reportlab
 six
